@@ -1,0 +1,39 @@
+{
+  "hello": {
+    "required": true,
+    "ssml": "<speak><prosody rate=\"110%\">¡Hola!</prosody></speak>",
+    "text": "¡Hola!" 
+  },
+  "could_not_understand": {
+    "required": true,
+    "ssml": "<speak>disculpa, ¿qué dijo?</speak> ",
+    "text": "disculpa, ¿qué dijo?"
+  },
+  "thank_you": {
+    "required": true,
+    "ssml": "<speak>¡Gracias!</speak>",
+    "text": "¡Gracias!" 
+  },
+  "who_is_this": {
+    "required": true,
+    "ssml": "<speak><prosody rate=\"110%\">Esta es una llamada automatizada para confirmar los datos de el negocio.</prosody></speak>",
+    "text": "Esta es una llamada automatizada para confirmar los datos de el negocio." 
+  },
+  "will_try_later": {
+    "required": true,
+    "ssml": "<speak><prosody rate=\"100%\">no pude entender, tendré que colgar, gracias</prosody></speak>",
+    "text": "no pude entender, tendré que colgar, gracias"
+  },
+  "verify_name": {
+    "required": true,
+    "verifying": "name",
+    "ssml": "<speak><prosody rate=\"110%\">¿Estoy marcando a {{name}}?</prosody></speak>",
+    "text": "¿Estoy marcando a {{name}}?"
+  },
+  "verify_address": {
+    "required": false,
+    "verifying": "address",
+    "ssml": "<speak><prosody rate=\"110%\">¿Están en {{address}}?</prosody></speak>",
+    "text": "¿Están en {{address}}?"
+  }
+}
